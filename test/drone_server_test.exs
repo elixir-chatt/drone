@@ -1,6 +1,6 @@
 defmodule DroneServerTest do
   use ExUnit.Case
-  alias Groxio.Drone
+  alias Groxio.{Drone, DroneServer}
 
   test "should return default drone" do
     drone = Drone.new()

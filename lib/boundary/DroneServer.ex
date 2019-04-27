@@ -1,4 +1,4 @@
-defmodule DroneServer do
+defmodule Groxio.DroneServer do
   def start(initial \\ []) do
     drone = Drone.new(initial)
     

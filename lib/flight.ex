@@ -1,4 +1,4 @@
-defmodule Flight do
+defmodule Groxio.Flight do
   alias Groxio.DroneServer
   
   @moduledoc """
